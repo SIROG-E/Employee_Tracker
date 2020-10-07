@@ -44,3 +44,9 @@ INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Tamer", "Galal", 4, 4);
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Christian", "Eckenrode", 1, 2);
+
+-- SELECT TO CREATE
+--TABLES IN SQL WORKBENCH 
+SELECT * FROM department;
+SELECT * FROM role;
+SELECT * FROM employee;
