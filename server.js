@@ -10,7 +10,7 @@ var connection = mysql.createConnection({
     port: 3306,
     user: "root",
     password: "Manzanita19",
-    database: "employee_DB"
+    database: "employees_DB"
 });
 
 // connection ID
@@ -39,7 +39,7 @@ function startPrompt() {
             "Update Employee Role",
             "Update Employee Manager",
             "View Department Budgets",
-            "End"
+            "Done"
         ]
     })
         .then((answer) => {
@@ -96,7 +96,7 @@ function startPrompt() {
                     viewDeptBudget();
                     break;
 
-                case "End":
+                case "Done":
                     connection.end();
                     break;
             }
