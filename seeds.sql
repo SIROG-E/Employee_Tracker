@@ -10,19 +10,19 @@ INSERT INTO department (name)
 VALUE ("Legal");
 
 -- EMPLOYEE ROLE SEEDS -------
-INSERT INTO role (title, salary, department_id)
+INSERT INTO [role] (title, salary, department_id)
 VALUES ("Sales Lead", 100000, 1);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO [role] (title, salary, department_id)
 VALUE ("Salesperson", 80000, 1);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO [role] (title, salary, department_id)
 VALUES ("Lead Engineer", 150000, 2);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO [role] (title, salary, department_id)
 VALUES ("Software Engineer", 120000, 2);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO [role] (title, salary, department_id)
 VALUES ("Accountant", 125000, 3);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO [role] (title, salary, department_id)
 VALUES ("Legal Team Lead", 250000, 4);
-INSERT INTO role (title, salary, department_id)
+INSERT INTO [role] (title, salary, department_id)
 VALUES ("Lawyer", 190000, 4);
 
 -- EMPLOYEE SEEDS -------
@@ -48,5 +48,5 @@ VALUES ("Christian", "Eckenrode", 1, 2);
 -- SELECT TO CREATE
 --TABLES IN SQL WORKBENCH 
 SELECT * FROM department;
-SELECT * FROM role;
+SELECT * FROM [role];
 SELECT * FROM employee;
