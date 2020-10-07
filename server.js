@@ -1,3 +1,4 @@
+// Dependencies
 const inquirer = require("inquirer");
 const mysql = require("mysql");
 const consoleTable = require("console.table");
@@ -12,11 +13,13 @@ var connection = mysql.createConnection({
     database: "employee_DB"
 });
 
+// connection ID
 connection.connect(function (err) {
     if (err) throw err;
     startPrompt();
 });
 
+// Initial Prompt
 function startPrompt() {
     inquirer.prompt({
         name: "action",
