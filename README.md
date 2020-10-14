@@ -1,6 +1,5 @@
 # Employee_Tracker
 
-## **Unit 10 OOP Homework: Template Engine - Employee Summary**
 
 [![GitHub license](https://img.shields.io/badge/Made%20by-SIROG--E-ab8c9b?style=flat&logo=github)](http://https://github.com/SIROG-E)
 
