@@ -5,6 +5,14 @@
 
 ## Description
 
+This Node application is for a business owner to be able to view and manage departments, roles, and employees in their company in order to organize and plan their business.
+
+The application gives yout the following options:
+
+
+* View all employees with the option by role, or department.
+* Add an employee, role, or department.
+* Update an employee.
 
 
 ## Table of Contents
@@ -27,38 +35,36 @@
 npm install
 ```
 
-`Run:`
+`Run in MySQL Workbench:`
 
 ```
-npm run test
+schema.sql  
 ```
 
 ## Usage
 
-:
+`Run:`
+
 
 ```
-node app.js
+node server.js
 ```
 
 ## Preview
 
-![Employee_Tracker Preview]()
+![Employee_Tracker Preview](Assets/Employee_Tracker_Preview.png)
 
-![Employee_Tracker Walkthrough]()
+![Employee_Tracker Walkthrough](Assets/employee-tracker.gif)
 
-![npm-Run-Test Preview]()
-
-![Running-Node Preview]()
 
 ### Websites
 
-[Template-Engine-EmployeeSum]()
+[Employee_Tracker](https://github.com/SIROG-E/Employee_Tracker)
 
 ## License
 
 This project is licensed by:
-<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) -->
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
